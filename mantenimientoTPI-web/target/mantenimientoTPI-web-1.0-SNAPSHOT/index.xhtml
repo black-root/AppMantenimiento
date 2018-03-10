@@ -8,14 +8,33 @@
     </h:head>
     <h:body>
         <h:form id="form"> 
-            <p:dataTable value="#{rolBean.rol}" var="r">
-                <p:column headerText="CODIGO">
-                    <h:outputText value="#{r.pkIdtrabajo}"/>
-                </p:column>
-                <p:column headerText="DESCRIPCION">
-                    <h:outputText value="#{r.descripcion}"/>
-                </p:column>
-            </p:dataTable>
+            <p:growl id="msgs" showDetail="true" />
+            <p:fieldset legend="Roles" style="margin-bottom:20px" >
+                
+                <h:panelGrid columns="2" cellpadding="5">
+                    <h:outputLabel value="ID ROL"/>
+                    <p:inputText value="#{rolBean.id}" required="true"/>
+
+                    <h:outputLabel value="Descripcion"/>
+                    <p:inputText value="#{rolBean.descripcion}" required="true"/>
+
+                    <h:outputLabel value=""/>
+                    <p:commandButton actionListener="#{rolBean.crear()}"
+                                     update="form"
+                                     value="Crear"
+                                     icon="ui-icon-disk"/>
+                </h:panelGrid>
+
+
+                <p:dataTable value="#{rolBean.rol}" var="r">
+                    <p:column headerText="CODIGO">
+                        <h:outputText value="#{r.pkIdtrabajo}"/>
+                    </p:column>
+                    <p:column headerText="DESCRIPCION">
+                        <h:outputText value="#{r.descripcion}"/>
+                    </p:column>
+                </p:dataTable>
+            </p:fieldset>
         </h:form>
     </h:body>
 </html>

@@ -9,7 +9,7 @@ import uesocc.tpi.edu.sv.Entities.EstadoDetalle;
 import uesocc.tpi.edu.sv.Entities.MantenimientoDetallePK;
 import uesocc.tpi.edu.sv.Entities.Ordentrabajo;
 
-@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2018-03-09T00:40:04")
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2018-03-10T01:35:19")
 @StaticMetamodel(MantenimientoDetalle.class)
 public class MantenimientoDetalle_ { 
 

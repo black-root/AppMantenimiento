@@ -10,7 +10,7 @@ import uesocc.tpi.edu.sv.Entities.MantenimientoDetalle;
 import uesocc.tpi.edu.sv.Entities.Personal;
 import uesocc.tpi.edu.sv.Entities.Procedimientos;
 
-@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2018-03-09T00:40:04")
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2018-03-10T01:35:19")
 @StaticMetamodel(EstadoDetalle.class)
 public class EstadoDetalle_ { 
 

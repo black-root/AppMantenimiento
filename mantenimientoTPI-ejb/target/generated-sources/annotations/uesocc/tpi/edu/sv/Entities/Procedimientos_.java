@@ -10,7 +10,7 @@ import uesocc.tpi.edu.sv.Entities.Pasos;
 import uesocc.tpi.edu.sv.Entities.ProcedimientosPK;
 import uesocc.tpi.edu.sv.Entities.TipoProcedimiento;
 
-@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2018-03-09T00:40:04")
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2018-03-10T01:35:19")
 @StaticMetamodel(Procedimientos.class)
 public class Procedimientos_ { 
 
